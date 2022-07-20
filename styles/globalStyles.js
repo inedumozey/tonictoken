@@ -20,10 +20,9 @@ const GlobalStyles = createGlobalStyle`
     body {
         min-height: 100vh;
         width: 100vw;
-        overflow-x: hidden;
         color: var(--major-brand);
         background: url('/bg.png');
-        background-size: contain;
+        background-size: 400px;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment:fixed;

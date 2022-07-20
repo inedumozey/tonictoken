@@ -51,9 +51,11 @@ export default function Layout({children}) {
                         <a style={{fontSize: '.8rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
                     </Link>
                     
-                    <Link href='/' passHref>
-                        <img src={logo} height='100%'/>
-                    </Link>
+                    <div style={{width: '160px'}}>
+                        <Link href='/' passHref>
+                            <img style={{width: '100%'}} src={logo} height='100%'/>
+                        </Link>
+                    </div>
 
                     <Link href='/whitepaper'>
                         <a style={{fontSize: '.8rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
