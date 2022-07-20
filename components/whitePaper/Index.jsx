@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react"
+
 import {
   Section,
   SectionTile,
   SectionSubTile
-} from '../../styles/globalStyles'
+} from "../../styles/globalStyles"
 
 
 export default function Index() {

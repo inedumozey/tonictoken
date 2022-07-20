@@ -1,11 +1,11 @@
-import Link from 'next/link'
-import { useState } from 'react';
+import Link from "next/link"
+import { useState } from "react";
 import { Btn, Section } from "../../styles/globalStyles";
-import { Hidden, CardWrapper } from './styles';
-import items from '../../config';
-import {motion, useAnimation} from 'framer-motion';
-import {useInView} from 'react-intersection-observer'
-import {useEffect} from 'react';
+import { Hidden, CardWrapper } from "./styles";
+import items from "../../config";
+import {motion, useAnimation} from "framer-motion";
+import {useInView} from "react-intersection-observer"
+import {useEffect} from "react";
 
 
 

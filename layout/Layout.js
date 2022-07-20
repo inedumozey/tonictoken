@@ -1,21 +1,21 @@
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import ScrollToTop from 'react-scroll-to-top';
-import {useState, useEffect} from 'react';
-import Link from 'next/link'
-import {useRouter} from 'next/router'
-import Top3 from './Top3';
-import Top1 from './Top1';
-import Top2 from './Top2';
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import ScrollToTop from "react-scroll-to-top";
+import {useState, useEffect} from "react";
+import Link from "next/link"
+import {useRouter} from "next/router"
+import Top3 from "./Top3";
+import Top1 from "./Top1";
+import Top2 from "./Top2";
 
-const logo = '/header.png'
+const logo = "/header.png";
 
 import {
     Header,
     Main,
     Footer
 
-} from '../styles/globalStyles';
+} from "../styles/globalStyles";
 
 import { 
     Wrapper,
@@ -23,7 +23,7 @@ import {
     HeaderTitle,
     Nav,
     Copy,
- } from './styles';
+ } from "./styles";
 
 
 export default function Layout({children}) {

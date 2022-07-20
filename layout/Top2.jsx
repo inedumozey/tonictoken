@@ -76,11 +76,11 @@ export default function Top2({setEmailCopied}) {
   return (
     <div  ref={ref} className="top2">
 
-        <motion.a animate={animation1} title="Our twitter handle" target={'_blank'} href="https://mobile.twitter.com/token_tonic">
+        <motion.a animate={animation1} title="Our twitter handle" target={'_blank'}  rel="noreferrer" href="https://mobile.twitter.com/token_tonic">
             <img src="/twitter.png" alt="/twitter.png" />
         </motion.a>
 
-        <motion.a animate={animation2} title="Our telegrma page" target={'_blank'} href="https://t.me/tonictokenchat/2">
+        <motion.a animate={animation2} title="Our telegrma page" target={'_blank'}  rel="noreferrer" href="https://t.me/tonictokenchat/2">
             <img src="/telegram.png" alt="/telegram.png" />
         </motion.a>
 
@@ -90,7 +90,7 @@ export default function Top2({setEmailCopied}) {
                 borderRadius: '7px'
             }}
             className='emailCopied'
-            title="Email us? Click to copy" target={'_blank'}>
+            title="Email us? Click to copy" target={'_blank'}  rel="noreferrer">
             <img src="/gmail.png" alt="/gmail.png" />
 
             <span
