@@ -42,7 +42,7 @@ export default function Layout({children}) {
 
   return (
    <Wrapper>
-        <ScrollToTop smooth color='red' style={{background: 'rgba(22,22,66,.8'}}/>
+        <ScrollToTop smooth color='teal' style={{background: 'rgba(22,22,66,.8'}}/>
         <Container>
 
             <Header headerHeight='350px'>
