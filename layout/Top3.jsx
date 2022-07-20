@@ -37,7 +37,7 @@ export default function Top3() {
             })
         }else{
             animation1.start({
-                x: -50,
+                x: -10,
                 transition: {
                     type: 'spring',
                     duration: 1,
@@ -45,7 +45,7 @@ export default function Top3() {
                 }
             })
             animation2.start({
-                y: 50,
+                y: 10,
                 transition: {
                     type: 'spring',
                     duration: 1,
@@ -53,7 +53,7 @@ export default function Top3() {
                 }
             })
             animation3.start({
-                x: 50,
+                x: 10,
                 transition: {
                     type: 'spring',
                     duration: 1,
