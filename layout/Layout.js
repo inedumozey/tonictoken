@@ -47,7 +47,7 @@ export default function Layout({children}) {
 
             <Header headerHeight='500px'>
                 <Nav>
-                    <div  style={{width: '350px'}}>
+                    <div  style={{width: '300px'}}>
                         <Link href='/' passHref>
                             <img style={{width: '100%'}} src={logo} height='100%'/>
                         </Link>
