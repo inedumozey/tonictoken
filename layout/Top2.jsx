@@ -4,7 +4,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import {useEffect} from 'react';
 
-export default function Top2() {
+export default function Top2({setEmailCopied}) {
 
     const emailMouseDown=(e)=>{
         setEmailCopied(true)
