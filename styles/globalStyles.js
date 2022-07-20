@@ -12,14 +12,13 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         // font-family: 'Edu VIC WA NT Beginner';
         // font-family: 'Edu VIC WA NT Beginner', cursive;
-        // font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         // font-family: 'Staatliches', cursive;
         font-size: 1rem;
     }
 
     body {
         min-height: 100vh;
-        width: 100vw;
         color: var(--major-brand);
         background: url('/bg.png');
         background-size: 400px;
@@ -50,13 +49,14 @@ const GlobalStyles = createGlobalStyle`
 const Header = styled.div`
   width: 100%;
   padding: 0 20px;
-  height: ${({headerHeight})=>headerHeight};
+  min-height: ${({headerHeight})=>headerHeight};
   background: linear-gradient(#000102,#11161a45);
 
 `
 
 const Main = styled.div`
   width: 100%;
+  margin: auto;
   min-height: ${({height})=>`calc(100vh - ${height.headerHeight} - ${height.footerHeight})`};
 `
 
@@ -76,7 +76,7 @@ const Footer = styled.div`
     display: flex;
     justify-conetent: center;
     align-items: center;
-    margin 10px;
+    margin 10px auto;
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -90,14 +90,14 @@ const Footer = styled.div`
   .top1{
     padding 0 30px;
     margin: 10px auto;
-    width: 90%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(160px, 1fr) );
     color: teal;
 
     a{
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
     }
   }
 
@@ -119,7 +119,7 @@ const Footer = styled.div`
     margin: 20px 0;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(130px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(120px, 1fr) );
     color: teal;
 
     a{
@@ -142,6 +142,8 @@ const Footer = styled.div`
 const Section = styled.section`
   padding: 30px;
   color: #fff;
+  width: 90%;
+  margin: auto;
   line-height: 2rem;
   border-bottom: 1px solid #021c24;
 
@@ -158,13 +160,13 @@ const Section = styled.section`
 const SectionTitle1 = styled.h1``
 
 const SectionTile = styled.h2`
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px auto;
   text-align: center;
   color: teal;
 `
 
 const SectionSubTile = styled.h3`
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px auto;
   text-align: center;
   color: teal;
 `

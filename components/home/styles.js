@@ -26,12 +26,13 @@ const Hidden = styled.div`
 
 const CardWrapper = styled.div`
     width:100%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
     color: teal;
 
     .card{
-        width: 95%;
+        width: 90%;
         height: auto;
         padding: 10px;
         background: #ccc;

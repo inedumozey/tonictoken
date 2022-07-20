@@ -45,20 +45,11 @@ export default function Layout({children}) {
         <ScrollToTop smooth color='teal' style={{background: 'rgba(22,22,66,.8'}}/>
         <Container>
 
-            <Header headerHeight='350px'>
+            <Header headerHeight='500px'>
                 <Nav>
-                    <div style={{width: '200px'}}>
+                    <div  style={{width: '350px'}}>
                         <Link href='/' passHref>
                             <img style={{width: '100%'}} src={logo} height='100%'/>
-                        </Link>
-                    </div>
-                    <div  style={{width: '150px', display: 'flex', flexDirection: 'column'}}>
-                        <Link href='/'>
-                            <a style={{fontSize: '1rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
-                        </Link>
-
-                        <Link href='/whitepaper'>
-                            <a style={{fontSize: '1rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
                         </Link>
                     </div>
                 </Nav>
@@ -69,7 +60,7 @@ export default function Layout({children}) {
                     </HeaderTitle>
                     <Copy copied={copied}>
                         <div className='contact'>Contract </div>
-                        <span
+                        <div
                             style={{
                                 padding: '5px',
                                 borderRadius: '7px'
@@ -77,7 +68,7 @@ export default function Layout({children}) {
                             className='copy-text'
                         >
                             0xdf3961ecdfa07677b70ddbfe192def12192b407
-                        </span>
+                        </div>
                         <span
                             onMouseDown={mouseDown}
                             onMouseUp={mouseUp} className='copy-icon'
@@ -88,6 +79,16 @@ export default function Layout({children}) {
                         </span>
 
                     </Copy>
+
+                    <div  style={{alignItems: 'center', display: 'flex', justifyContent: 'space-around',}}>
+                        <Link href='/'>
+                            <a style={{fontSize: '1rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
+                        </Link>
+
+                        <Link href='/whitepaper'>
+                            <a style={{fontSize: '1rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
+                        </Link>
+                    </div>
                 </>
             </Header>
             

@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
     width: 100%;;
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
 `
 
@@ -20,11 +20,10 @@ const HeaderTitle = styled(SectionTitle1)`
     line-height: 2.3rem;
 `
 const Nav = styled.div`
-    height: 120px;
     width:100%;
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 20px;
     align-items: center;
 
 `
@@ -32,10 +31,15 @@ const Nav = styled.div`
 const Copy = styled.div`
     text-align: center;
     font-size: .8rem;
-    width: 80%;
+    width: 90%;
     margin: auto;
     border: 2px solid #021c24;
-    padding: 20px;
+    word-wrap: break-all;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
     position: relative;
 
@@ -49,7 +53,7 @@ const Copy = styled.div`
     .copy-text {
         background: ${({copied})=>copied ? 'rgb(2 2 2 / 77%);' : ''};
         color: ${({copied})=>copied ? '#fff' : 'teal'};
-        font-size: .8rem;
+        font-size:80%;
     }
 
     .copy-icon {
