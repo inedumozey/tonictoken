@@ -38,23 +38,27 @@ const CardWrapper = styled.div`
     .card{
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 10px 20px;
         background: #ccc;
         box-shadow: -1px 8px 5px 1px #000;
         margin 10px auto;
+
+        p{
+            margin-bottom: 12px;
+        }
     }
 
     .title {
         border-radius: 20px;
         display: flex;
         width: 70%;
+        margin: 20px auto;
         justify-content: center;
         align-items: center;
         height: 30px;
         background: #aaa; 
         box-shadow: 2px 2px 3px #000, -2px -2px 3px #000;
         color: #000;
-        margin: 5px auto 10px auto;
     }
 `
 
