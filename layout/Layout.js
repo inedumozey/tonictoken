@@ -48,7 +48,7 @@ export default function Layout({children}) {
             <Header headerHeight='350px'>
                 <Nav>
                     <Link href='/'>
-                        <a  className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
+                        <a style={{fontSize: '.8rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
                     </Link>
                     
                     <Link href='/' passHref>
@@ -56,7 +56,7 @@ export default function Layout({children}) {
                     </Link>
 
                     <Link href='/whitepaper'>
-                        <a className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
+                        <a style={{fontSize: '.8rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
                     </Link>
                 </Nav>
                 <>

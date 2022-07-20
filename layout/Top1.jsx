@@ -28,7 +28,7 @@ export default function Top1() {
             })
         }else{
             animation1.start({
-                x: 10,
+                x: 20,
                 transition: {
                     type: 'spring',
                     duration: 1,
@@ -36,7 +36,7 @@ export default function Top1() {
                 }
             })
             animation2.start({
-                x: 10,
+                x: 20,
                 transition: {
                     type: 'spring',
                     duration: 1,

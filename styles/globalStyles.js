@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
         // font-family: 'Edu VIC WA NT Beginner', cursive;
         // font-family: 'Open Sans', sans-serif;
         // font-family: 'Staatliches', cursive;
+        font-size: .9rem;
     }
 
     body {
