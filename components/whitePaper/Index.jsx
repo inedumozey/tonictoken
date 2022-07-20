@@ -34,7 +34,7 @@ export default function Index() {
 
       <Section>
 
-        <SectionTile> CASINO & MEME MARKETPLACE PLACE. </SectionTile>
+        <SectionTile> CASINO & MEME MARKET PLACE. </SectionTile>
 
         <p style={{marginBottom: '0px'}} className="paragraph">
           We intend to build our casino first before the meme
