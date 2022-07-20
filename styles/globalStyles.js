@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
         // font-family: 'Edu VIC WA NT Beginner', cursive;
         // font-family: 'Open Sans', sans-serif;
         // font-family: 'Staatliches', cursive;
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     body {
@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
         .link{
           color: teal;
           text-decoration: none;
-          padding: 10px 8px;
+          padding: 8px;
           border-radius: 5px;
 
           &:hover{
@@ -39,7 +39,7 @@ const GlobalStyles = createGlobalStyle`
         }
 
         .active{
-          border: 1px solid #fff;
+          color: #fff;
         }
 
 
@@ -49,12 +49,9 @@ const GlobalStyles = createGlobalStyle`
 
 const Header = styled.div`
   width: 100%;
+  padding: 0 20px;
   height: ${({headerHeight})=>headerHeight};
   background: linear-gradient(#000102,#11161a45);
-
-  .copy-text{
-    
-  }
 
 `
 
@@ -92,15 +89,15 @@ const Footer = styled.div`
 
   .top1{
     padding 0 30px;
-    margin: 20px 0;
-    width: 100%;
+    margin: 10px auto;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
     color: teal;
 
     a{
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
     }
   }
 

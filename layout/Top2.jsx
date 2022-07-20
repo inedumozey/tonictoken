@@ -21,10 +21,10 @@ export default function Top2({setEmailCopied}) {
     useEffect(()=>{
         if(inView){
             animation1.start({
-                x: 0,
+                y: 0,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })
@@ -33,40 +33,40 @@ export default function Top2({setEmailCopied}) {
                 y: 0,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })
             animation3.start({
-                x: 0,
+                y: 0,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })
         }else{
             animation1.start({
-                x: -10,
+                y: 50,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })
             animation2.start({
-                y: 10,
+                y: 50,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })
             animation3.start({
-                x: 10,
+                y: 50,
                 transition: {
                     type: 'spring',
-                    duration: 1,
+                    duration: .3,
                     bounce: 0.3
                 }
             })

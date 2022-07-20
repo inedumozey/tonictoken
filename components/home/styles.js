@@ -2,29 +2,25 @@ import styled from 'styled-components';
 
 const Hidden = styled.div`
     width: 90%;
-    height: ${({show})=>show ? '350px' : '85px'};
     transition: all .3s;
     margin: 50px auto 20px auto;
     position: relative;
     padding-top: 10px;
-    overflow: hidden;
     border-top: 2px solid  #021c24;
-    border-bottom: 2px solid  #021c24;
 
     .btn {
         display: flex;
         justify-content: center;
-        positon: absolute;
-        top: 0;
     }
 
     .content{
         padding: 10px;
-        margin: 20px auto 10px auto;
-        min-height: 300px;
-        position: absolute;
-        transition: all .5s;
-        top: ${({show})=>show ? '40px' : '-1020%'}
+        margin: 10px auto 10px auto;
+        height: ${({show})=>show ? 'auto' : '0'};
+        overflow: hidden;
+        visibility: ${({show})=>show ? 'visible' : 'hidden'};
+        opacity: ${({show})=>show ? '1' : '0'};
+        transition: all .2s;
     }
 `
 

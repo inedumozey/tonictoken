@@ -47,20 +47,22 @@ export default function Layout({children}) {
 
             <Header headerHeight='350px'>
                 <Nav>
-                    <Link href='/'>
-                        <a style={{fontSize: '.8rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
-                    </Link>
-                    
-                    <div style={{width: '120px'}}>
+                    <div style={{width: '200px'}}>
                         <Link href='/' passHref>
                             <img style={{width: '100%'}} src={logo} height='100%'/>
                         </Link>
                     </div>
+                    <div  style={{width: '150px', display: 'flex', flexDirection: 'column'}}>
+                        <Link href='/'>
+                            <a style={{fontSize: '1rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
+                        </Link>
 
-                    <Link href='/whitepaper'>
-                        <a style={{fontSize: '.8rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
-                    </Link>
+                        <Link href='/whitepaper'>
+                            <a style={{fontSize: '1rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
+                        </Link>
+                    </div>
                 </Nav>
+                
                 <>
                     <HeaderTitle>
                         A NEXT GENERATION COMMUNITY BASED MEME TOKEN ON BSC

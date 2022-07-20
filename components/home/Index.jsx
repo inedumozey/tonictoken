@@ -75,7 +75,7 @@ function Card1(){
   useEffect(()=>{
     if(inView){
         animation1.start({
-            x: 0,
+            y: 0,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -84,7 +84,7 @@ function Card1(){
         })
     }else{
         animation1.start({
-            x: 50,
+            y: 50,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -121,7 +121,7 @@ function Card2(){
   useEffect(()=>{
     if(inView){
         animation1.start({
-            x: 0,
+            y: 0,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -130,7 +130,7 @@ function Card2(){
         })
     }else{
         animation1.start({
-            x: -50,
+            y: -50,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -166,7 +166,7 @@ function Card3(){
   useEffect(()=>{
     if(inView){
         animation1.start({
-            x: 0,
+            y: 0,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -175,7 +175,7 @@ function Card3(){
         })
     }else{
         animation1.start({
-            x: 50,
+            y: 50,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -209,7 +209,7 @@ function Card4(){
   useEffect(()=>{
     if(inView){
         animation1.start({
-            x: 0,
+            y: 0,
             transition: {
                 type: 'spring',
                 duration: 1,
@@ -218,7 +218,7 @@ function Card4(){
         })
     }else{
         animation1.start({
-            x: -50,
+            y: -50,
             transition: {
                 type: 'spring',
                 duration: 1,

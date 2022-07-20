@@ -4,12 +4,11 @@ import { SectionTitle1} from '../styles/globalStyles';
 const Wrapper = styled.div`
     background: linear-gradient(rgb(0 0 0 / 94%),#030722f7);
     width: 100%;
-    padding: 10px 20px;
 `
 
 const Container = styled.div`
-    width: 86vw;;
-    max-width: 700px;
+    width: 100%;;
+    max-width: 900px;
     margin: auto;
 `
 
@@ -22,10 +21,12 @@ const HeaderTitle = styled(SectionTitle1)`
 `
 const Nav = styled.div`
     height: 120px;
-    padding: 20px;
+    width:100%;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 `
 
 const Copy = styled.div`
@@ -34,7 +35,7 @@ const Copy = styled.div`
     width: 80%;
     margin: auto;
     border: 2px solid #021c24;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     position: relative;
 
@@ -48,6 +49,7 @@ const Copy = styled.div`
     .copy-text {
         background: ${({copied})=>copied ? 'rgb(2 2 2 / 77%);' : ''};
         color: ${({copied})=>copied ? '#fff' : 'teal'};
+        font-size: .8rem;
     }
 
     .copy-icon {
