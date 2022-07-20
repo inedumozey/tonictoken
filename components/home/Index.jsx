@@ -53,7 +53,7 @@ export default function Index() {
         </Link>
       </div>
 
-      <CardWrapper>
+      {/* <CardWrapper>
         <Card1 />
         <Card2 />
         <Card3 />
@@ -62,7 +62,7 @@ export default function Index() {
 
         
         
-      </CardWrapper>
+      </CardWrapper> */}
 
     </Section>
   )

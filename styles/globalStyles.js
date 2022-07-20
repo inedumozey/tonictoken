@@ -56,7 +56,7 @@ const Header = styled.div`
 
 const Main = styled.div`
   width: 100%;
-  margin: auto;
+  margin auto;
   min-height: ${({height})=>`calc(100vh - ${height.headerHeight} - ${height.footerHeight})`};
 `
 
