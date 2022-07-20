@@ -142,7 +142,7 @@ const Footer = styled.div`
 const Section = styled.section`
   padding: 30px;
   color: #fff;
-  width: 90%;
+  width: 98%;
   margin: auto;
   line-height: 2rem;
   border-bottom: 1px solid #021c24;

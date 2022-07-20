@@ -3,12 +3,12 @@ import { SectionTitle1} from '../styles/globalStyles';
 
 const Wrapper = styled.div`
     background: linear-gradient(rgb(0 0 0 / 94%),#030722f7);
-    width: 100%;
+   
 `
 
 const Container = styled.div`
     width: 100%;;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 `
 

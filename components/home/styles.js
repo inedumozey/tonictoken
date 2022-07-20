@@ -25,14 +25,18 @@ const Hidden = styled.div`
 `
 
 const CardWrapper = styled.div`
-    width:100%;
+    width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-flow: wrap;
+    // grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     color: teal;
 
     .card{
-        width: 90%;
+        width: 100%;
         height: auto;
         padding: 10px;
         background: #ccc;
