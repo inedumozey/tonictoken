@@ -51,7 +51,7 @@ export default function Layout({children}) {
                         <a style={{fontSize: '.8rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
                     </Link>
                     
-                    <div style={{width: '160px'}}>
+                    <div style={{width: '120px'}}>
                         <Link href='/' passHref>
                             <img style={{width: '100%'}} src={logo} height='100%'/>
                         </Link>
