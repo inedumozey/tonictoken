@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         min-height: 100vh;
+        width: 100vw;
         overflow-x: hidden;
         color: var(--major-brand);
         background: url('/bg.png');
