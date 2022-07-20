@@ -47,7 +47,7 @@ export default function Top2({setEmailCopied}) {
             })
         }else{
             animation1.start({
-                x: -100,
+                x: -50,
                 transition: {
                     type: 'spring',
                     duration: 1,
@@ -55,7 +55,7 @@ export default function Top2({setEmailCopied}) {
                 }
             })
             animation2.start({
-                y: 100,
+                y: 50,
                 transition: {
                     type: 'spring',
                     duration: 1,
@@ -63,7 +63,7 @@ export default function Top2({setEmailCopied}) {
                 }
             })
             animation3.start({
-                x: 100,
+                x: 50,
                 transition: {
                     type: 'spring',
                     duration: 1,
