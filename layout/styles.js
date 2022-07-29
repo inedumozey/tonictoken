@@ -3,7 +3,6 @@ import { SectionTitle1} from '../styles/globalStyles';
 
 const Wrapper = styled.div`
     background: linear-gradient(rgb(0 0 0 / 94%),#030722f7);
-   
 `
 
 const Container = styled.div`
@@ -30,12 +29,12 @@ const Nav = styled.div`
 
 const Copy = styled.div`
     text-align: center;
-    font-size: .8rem;
+    font-size: .9rem;
     width: 90%;
     margin: auto;
     border: 2px solid #021c24;
     word-wrap: break-all;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +44,6 @@ const Copy = styled.div`
 
     .contact{
         color: #fff;
-        margin-bottom: 5px;
         user-select: none;
         -webkit-user-select: none;
     }

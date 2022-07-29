@@ -15,15 +15,15 @@ export default function Index() {
   return (
     <Section>
       <p className="paragraph">
-        Tonic token is taking bold steps to give meme a whole new look. Beyond fun and community engagement tonic token would provide a platform for the tokenization of memes and a  meme casiono. Investors would get the opportunity to earn from staking rewards and profits of the every utility built on and for the tonic community.
+        Tonic token is taking bold steps to give meme coin a whole new look. Beyond fun and community engagement, tonic token would provide a platform for degen traders to interact and share constructive ideas. Investors would earn from staking and every utility built on tonic.
       </p>
 
      <div style={{margin: 'auto', height: '70px', display: 'flex', justifyContent: 'space-around', alignItems: 'center', }}>
         <Btn bg="teal">
-            <a target='_blank' href='https://pancakeswap.finance/swap?outputCurrency=0xdf3961ecdfa07677b70ddbfe192def12192b4072' className='link'>Buy</a>
+            <a target='_blank' href='https://app.tinyman.org/#/swap?asset_in=0&asset_out=822255433' className='link'>Buy</a>
         </Btn>
         <Btn bg="teal">
-            <a target='_blank' className='link'>Charts</a>
+            <a target='_blank' href="https://vestige.fi/asset/822255433" className='link'>Charts</a>
         </Btn>
       </div>
 
@@ -53,16 +53,12 @@ export default function Index() {
         </Link>
       </div>
 
-      <CardWrapper>
+      {/* <CardWrapper>
         <Card1 />
         <Card2 />
         <Card3 />
         <Card4 />
-   
-
-        
-        
-      </CardWrapper>
+      </CardWrapper> */}
 
     </Section>
   )

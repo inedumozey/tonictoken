@@ -76,12 +76,12 @@ export default function Top2({setEmailCopied}) {
   return (
     <div  ref={ref} className="top2">
 
-        <motion.a animate={animation1} title="Our twitter handle" target={'_blank'}  rel="noreferrer" href="https://mobile.twitter.com/token_tonic">
+        <motion.a animate={animation1} title="Our twitter handle" target={'_blank'}  rel="noreferrer" href="https://mobile.twitter.com/TokenTonictok">
             <img src="/twitter.png" alt="/twitter.png" />
         </motion.a>
 
-        <motion.a animate={animation2} title="Our telegrma page" target={'_blank'}  rel="noreferrer" href="https://t.me/tonictokenchat/2">
-            <img src="/telegram.png" alt="/telegram.png" />
+        <motion.a animate={animation2} title="Our telegrma page" target={'_blank'}  rel="noreferrer" href="https://discord.gg/nehB6s22pn">
+            <img src="/discord1.png" alt="/telegram.png" />
         </motion.a>
 
         <motion.a animate={animation3} 

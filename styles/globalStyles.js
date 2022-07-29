@@ -29,7 +29,9 @@ const GlobalStyles = createGlobalStyle`
         .link{
           color: teal;
           text-decoration: none;
-          padding: 8px;
+          padding: 3px 8px;
+          margin-bottom: 5px;
+          border: 1px solid;
           border-radius: 5px;
 
           &:hover{
@@ -39,8 +41,12 @@ const GlobalStyles = createGlobalStyle`
 
         .active{
           color: #fff;
+          border: 1px solid;
         }
 
+        p{
+          text-align: justify;
+        }
 
     }
 
