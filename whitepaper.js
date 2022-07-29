@@ -1,4 +1,4 @@
-import Index from "../components/whitePaper/Index.jsx"
+import Index from "./components/whitePaper/Index.jsx"
 
 export default function ecosystem() {
   return <Index />

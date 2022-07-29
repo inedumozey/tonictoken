@@ -22,7 +22,7 @@ export default function Index() {
         <Btn bg="teal">
             <a target='_blank' href='https://app.tinyman.org/#/swap?asset_in=0&asset_out=822255433' className='link'>Buy</a>
         </Btn>
-        <Btn bg="teal">
+        <Btn bg="teal">b
             <a target='_blank' href="https://vestige.fi/asset/822255433" className='link'>Charts</a>
         </Btn>
       </div>

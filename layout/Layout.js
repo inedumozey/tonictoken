@@ -45,7 +45,7 @@ export default function Layout({children}) {
         <ScrollToTop smooth color='teal' style={{background: 'rgba(22,22,66,.8'}}/>
         <Container>
 
-            <Header headerHeight='430px'>
+            <Header headerHeight='300px'>
                 <Nav>
                     <div  style={{width: '300px'}}>
                         <Link href='/' passHref>
@@ -60,7 +60,7 @@ export default function Layout({children}) {
                         A NEXT GENERATION COMMUNITY BASED MEME TOKEN ON ALGORAND
                     </HeaderTitle>
 
-                    <div  style={{alignItems: 'center', display: 'flex', justifyContent: 'space-around',}}>
+                    {/* <div  style={{alignItems: 'center', display: 'flex', justifyContent: 'space-around',}}>
                         <Link href='/'>
                             <a style={{fontSize: '1rem'}} className={router.asPath === '/' ? 'link active' : 'link'}>Home</a>
                         </Link>
@@ -68,7 +68,7 @@ export default function Layout({children}) {
                         <Link href='/whitepaper'>
                             <a style={{fontSize: '1rem'}} className={router.asPath === '/whitepaper' ? 'link active' : 'link'}>White Paper</a>
                         </Link>
-                    </div>
+                    </div> */}
 
                     <Copy copied={copied}>
                         <div className='contact'>ASA ID </div>

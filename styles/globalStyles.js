@@ -57,6 +57,7 @@ const Header = styled.div`
   padding: 0 20px;
   min-height: ${({headerHeight})=>headerHeight};
   background: linear-gradient(#000102,#11161a45);
+  // border: 1px solid red;
 
 `
 
