@@ -13,8 +13,8 @@ const Container = styled.div`
 
 const HeaderTitle = styled(SectionTitle1)`
     text-align: center;
-    font-size: 1.5rem;
-    padding: 20px;
+    font-size: 1.1rem;
+    padding: 0 5px 20px 5px;;
     font-family: 'Libre Baskerville', serif;
     line-height: 2.3rem;
 `
