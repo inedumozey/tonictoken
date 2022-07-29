@@ -102,7 +102,7 @@ export default function Layout({children}) {
 
                 {/* <Top1 /> */}
                 <Top2 setEmailCopied={setEmailCopied}/>
-                <Top3 />
+                {/* <Top3 /> */}
 
                 <div className="bottom">
                     &copy; {craetedDate}, Tonictoken

@@ -27,7 +27,7 @@ export default function Index() {
         </Btn>
       </div>
 
-      <Hidden show={show}>
+      {/* <Hidden show={show}>
         <div className="btn">
           <Btn onClick={()=>setShow(!show)} bg={'#c20'} direction='vertical'>How to Buy</Btn>
 
@@ -44,14 +44,14 @@ export default function Index() {
             3. Visit the buy option above to swap some BnB to TTE on pancakswap 
           </p>
         </div>
-      </Hidden>
+      </Hidden> */}
       
-      <div style={{margin: '10px auto 30px auto'}}>
+      {/* <div style={{margin: '10px auto 30px auto'}}>
 
         <Link href='/whitepaper'>
           <a  className='link'>White Paper</a>
         </Link>
-      </div>
+      </div> */}
 
       {/* <CardWrapper>
         <Card1 />
