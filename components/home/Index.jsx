@@ -15,8 +15,8 @@ export default function Index() {
   return (
     <Section>
       <p className="paragraph">
-        Tonic token is taking bold steps to give meme coin a whole new look. Beyond fun and community engagement, tonic token would provide a platform for degen traders to interact and share constructive ideas. Investors would earn from staking and every utility built on tonic.
-      </p>
+        Tonic token is taking bold steps to give meme coins a whole new appearance and purpose while promoting fun and community engagement beyond your wildest dreams! We aim to provide a platform for degen traders to interact with and share constructive ideas. Investors will earn from staking along with utilities built on tonic.
+        </p>
 
      <div style={{margin: 'auto', height: '70px', display: 'flex', justifyContent: 'space-around', alignItems: 'center', }}>
         <Btn bg="teal">
