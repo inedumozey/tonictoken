@@ -2,7 +2,7 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-    :root{
+    /*:root{
         --major-brand : #fff;
     }
 
@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
         font-size: 1rem;
     }
 
-    body {
+   body {
         min-height: 100vh;
         color: var(--major-brand);
         background: url('/bg.png');
@@ -229,4 +229,4 @@ export {
     SectionTile,
     SectionSubTile,
     Btn
-}
+}*/
