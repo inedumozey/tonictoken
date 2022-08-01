@@ -2,7 +2,7 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-    /*:root{
+    :root{
         --major-brand : #fff;
     }
 
@@ -20,11 +20,11 @@ const GlobalStyles = createGlobalStyle`
    body {
         min-height: 100vh;
         color: var(--major-brand);
-        background: url('/bg.png');
-        background-size: 400px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment:fixed;
+        //background: url('/bg.png');
+        //background-size: 400px;
+        //background-repeat: no-repeat;
+       // background-position: center;
+        //background-attachment:fixed;
 
         .link{
           color: teal;
@@ -229,4 +229,4 @@ export {
     SectionTile,
     SectionSubTile,
     Btn
-}*/
+}
