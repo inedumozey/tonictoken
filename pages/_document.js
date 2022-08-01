@@ -32,7 +32,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
        <Head>
-            <!--<title>Tonic Token</title>-->
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Open+Sans:wght@600&family=Staatliches&display=swap" rel="stylesheet" />
         </Head>
