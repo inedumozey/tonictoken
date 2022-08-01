@@ -6,10 +6,12 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <GlobalStyles />
-      <Layout>
+      /* <GlobalStyles />
+     <Layout>
         <Component {...pageProps} />
-      </Layout>
+      </Layout>*/
+
+     <Component {...pageProps} />
       
     </>
     
